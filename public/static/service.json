@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Partner",
+    "price": "Need to be registered with us",
+    "img": "img/service/1.jpg",
+    "shortDec": "We collaborate with brands and vendors, including pharmacies, fast food chains, and clothing stores, to provide recipients with QR code cards. These partnerships enable those in need to access essential items and services, amplifying our impact on their lives.",
+    "icon": {
+      "svg": "img/service/handshake.png",
+      "iconBg": "img/brushes/service/1.png"
+    },
+    "dec": [
+      "Dizme is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
+      "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
+      "That’s why more companies are not only reevaluating their website’s design but also partnering with Kura, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business."
+    ]
+  },
+  {
+    "title": "Donor",
+    "price": "Need to be registered with us",
+    "img": "img/service/2.jpg",
+    "shortDec": "Our donors—individuals and companies—play a vital role in supporting those in need. By contributing through our QR code system, they can provide targeted assistance to recipients facing poverty, disaster, or hardship, ensuring their donations make a meaningful impact.",
+    "icon": {
+      "svg": "img/service/donor_icon.jpg",
+      "iconBg": "img/brushes/service/2.png"
+    },
+    "dec": [
+      "Dizme is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
+      "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
+      "That’s why more companies are not only reevaluating their website’s design but also partnering with Kura, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business."
+    ]
+  },
+  {
+    "title": "Recipient",
+    "price": "No any registration needed",
+    "img": "img/service/3.jpg",
+    "shortDec": "Our recipients are individuals and families facing poverty, disaster, or hardship. Through our QR code system, they receive essential support from donors, enabling them to access specific resources and services from partnered vendors, empowering them to meet their immediate needs.",
+    "icon": {
+      "svg": "img/service/recipient_icon.png",
+      "iconBg": "img/brushes/service/3.png"
+    },
+    "dec": [
+      "Dizme is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
+      "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
+      "That’s why more companies are not only reevaluating their website’s design but also partnering with Kura, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business."
+    ]
+  },
+  {
+    "title": "Aajiz",
+    "price": "We will manage this all process from zero",
+    "img": "img/service/4.jpg",
+    "shortDec": "Aajiz is a digital charity platform that connects donors and recipients through QR codes. We streamline support for individuals and families in need, enabling them to access vital resources via partnerships with various vendors.",
+    "icon": {
+      "svg": "img/service/management.png",
+      "iconBg": "img/brushes/service/4.png"
+    },
+    "dec": [
+      "Dizme is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
+      "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
+      "That’s why more companies are not only reevaluating their website’s design but also partnering with Kura, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business."
+    ]
+  }
+]
