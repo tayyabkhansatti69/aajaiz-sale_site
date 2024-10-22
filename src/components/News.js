@@ -5,10 +5,16 @@ const News = () => {
   const [data, setData] = useState([]);
   const [popupData, setPopupData] = useState({});
   const [popup, setPopup] = useState(false);
-  useEffect(async () => {
-    setData(await fatchData("/static/blog.json"));
-    aTagClick();
+  useEffect(() => {
+    async function fetchData() {
+      const data = await fatchData("/static/blog.json");
+      setData(data);
+      aTagClick();  // Ensure aTagClick is defined and safe to call after data fetch
+    }
+  
+    fetchData();
   }, []);
+  
   return (
     <div className="dizme_tm_section" id="blog">
       <BlogPopUp open={popup} data={popupData} close={() => setPopup(false)} />

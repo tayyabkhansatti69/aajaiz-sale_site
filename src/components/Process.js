@@ -3,9 +3,15 @@ import { useEffect, useState } from "react";
 import { fatchData } from "../utilits";
 const Process = ({ dark }) => {
   const [data, setData] = useState([]);
-  useEffect(async () => {
-    setData(await fatchData("/static/workProcess.json"));
+  useEffect(() => {
+    async function fetchData() {
+      const data = await fatchData("/static/workProcess.json");
+      setData(data);
+    }
+  
+    fetchData();
   }, []);
+  
   return (
     <div className="dizme_tm_section" id="process">
       <div className="dizme_tm_process">

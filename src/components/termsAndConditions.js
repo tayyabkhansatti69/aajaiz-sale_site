@@ -4,18 +4,25 @@ import { fatchData } from "../utilits";
 
 const TermsAndConditions = ({ dark }) => {
   const [data, setData] = useState([]);
-  useEffect(async () => {
-    setData(await fatchData("/static/service.json"));
-    setTimeout(() => {
-      let VanillaTilt = require("vanilla-tilt");
-      VanillaTilt.init(document.querySelectorAll(".tilt-effect"), {
-        maxTilt: 6,
-        easing: "cubic-bezier(.03,.98,.52,.99)",
-        speed: 500,
-        transition: true,
-      });
-    }, 1000);
+  useEffect(() => {
+    async function fetchData() {
+      const data = await fatchData("/static/service.json");
+      setData(data);
+      
+      setTimeout(() => {
+        let VanillaTilt = require("vanilla-tilt");
+        VanillaTilt.init(document.querySelectorAll(".tilt-effect"), {
+          maxTilt: 6,
+          easing: "cubic-bezier(.03,.98,.52,.99)",
+          speed: 500,
+          transition: true,
+        });
+      }, 1000);
+    }
+  
+    fetchData();
   }, []);
+  
 
   return (
     <div className="dizme_tm_section">

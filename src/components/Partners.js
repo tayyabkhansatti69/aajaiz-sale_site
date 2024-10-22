@@ -2,9 +2,15 @@ import { useEffect, useState } from "react";
 import { fatchData } from "../utilits";
 const Partners = ({ dark }) => {
   const [data, setData] = useState([]);
-  useEffect(async () => {
-    setData(await fatchData("/static/partners.json"));
+  useEffect(() => {
+    async function fetchData() {
+      const data = await fatchData("/static/partners.json");
+      setData(data);
+    }
+  
+    fetchData();
   }, []);
+  
   return (
     <div className="dizme_tm_section">
       <div className="dizme_tm_partners">
@@ -24,7 +30,7 @@ const Partners = ({ dark }) => {
                         src={img.logo && img.logo[dark ? "dark" : "light"]}
                         alt="image"
                       />
-                      <a className="dizme_tm_full_link" a="" href={img.link} />
+                      <a className="dizme_tm_full_link" href={img.link} />
                     </div>
                   </li>
                 ))}

@@ -11,8 +11,13 @@ SwiperCore.use([Pagination, Navigation, EffectFade, Autoplay]);
 
 const Testimonial = () => {
   const [data, setData] = useState([]);
-  useEffect(async () => {
-    setData(await fatchData("/static/testimonial.json"));
+  useEffect(() => {
+    async function fetchData() {
+      const data = await fatchData("/static/testimonial.json");
+      setData(data);
+    }
+    
+    fetchData();
   }, []);
   const props = {
     slidesPerView: 1,

@@ -4,10 +4,16 @@ import { fatchData } from "../utilits";
 
 const Service = ({ dark }) => {
   const [data, setData] = useState([]);
-  useEffect(async () => {
-    setData(await fatchData("/static/service.json"));
+  useEffect(() => {
+    async function fetchData() {
+      const data = await fatchData("/static/service.json");
+      setData(data);
+    }
+  
+    fetchData();
+  
     setTimeout(() => {
-      let VanillaTilt = require("vanilla-tilt");
+      const VanillaTilt = require("vanilla-tilt");
       VanillaTilt.init(document.querySelectorAll(".tilt-effect"), {
         maxTilt: 6,
         easing: "cubic-bezier(.03,.98,.52,.99)",
@@ -16,6 +22,7 @@ const Service = ({ dark }) => {
       });
     }, 1000);
   }, []);
+  
 
   return (
     <div className="dizme_tm_section" id={"service"}>

@@ -4,9 +4,15 @@ import { fatchData } from "../utilits";
 
 const Home = ({ dark }) => {
   const [data, setData] = useState({});
-  useEffect(async () => {
-    setData(await fatchData("/static/info.json"));
+  useEffect(() => {
+    async function fetchData() {
+      const data = await fatchData("/static/info.json");
+      setData(data);
+    }
+  
+    fetchData();
   }, []);
+  
 
   return (
     <div className="dizme_tm_section" id="home">

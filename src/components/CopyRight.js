@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const CopyRight = ({ brandName }) => {
   return (
     <div className="dizme_tm_section">
@@ -20,10 +22,10 @@ const CopyRight = ({ brandName }) => {
             <div className="right wow fadeInRight" data-wow-duration="1s">
               <ul>
                 <li>
-                  <a href="/terms">{`Terms & Condition`}</a>
+                  <Link href="/terms">Terms & Condition</Link>
                 </li>
                 <li>
-                  <a href="/policy">Privacy Policy</a>
+                  <Link href="/policy">Privacy Policy</Link>
                 </li>
               </ul>
             </div>
