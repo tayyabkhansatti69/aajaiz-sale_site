@@ -45,7 +45,7 @@ const Home = ({ dark }) => {
               </div>
               <div className="button">
                 <div className="dizme_tm_button">
-                  <a className="anchor" href="#about">
+                <a className="anchor" href="https://aajazi.netlify.app/sign-in">
                     <span>Join Us</span>
                   </a>
                 </div>
