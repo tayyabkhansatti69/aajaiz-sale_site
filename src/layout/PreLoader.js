@@ -31,22 +31,29 @@ const PreLoader = () => {
   }, []);
 
   return (
-    <div id="preloader" >
+    <div id="preloader">
       {showGif ? (
-        <div style={{
-          display:'flex',
-          justifyContent:'center',
-          alignItems:'center',
-          width:'100%',
-          height:'100%',
-          backgroundColor:'white'
-          
-        }}>
-        <img src="/gif/Flow 6@1x-25fps.gif" alt="Splash Screen" style={{width:'1080px',height:'887px'}}  />
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            width: "100%",
+            height: "100%",
+            backgroundColor: "white",
+          }}
+        >
+          <img
+            src="/gif/Flow 6@1x-25fps.gif"
+            alt="Splash Screen"
+            style={{
+              width: "100%", 
+              maxWidth: "1080px", 
+              height: "auto", 
+              maxHeight: "887px", 
+            }}
+          />
         </div>
-        
-        
-        
       ) : (
         <div className="loader_line"></div>
       )}
