@@ -1,15 +1,45 @@
-import { useEffect } from "react";
+// import { useEffect } from "react";
+// import Image from "next/image";
 import { preloader } from "../utilits";
 
+// const PreLoader = () => {
+//   useEffect(() => {
+//     preloader();
+//   }, []);
+
+//   return (
+//     <div id="preloader">
+//       <div className="loader_line"></div>
+//     </div>
+//   );
+// };
+// export default PreLoader;
+import { useState, useEffect } from "react";
+
 const PreLoader = () => {
+  const [showGif, setShowGif] = useState(true);
+
   useEffect(() => {
-    preloader();
+    // Hide the GIF after 3 seconds
+    const timer = setTimeout(() => {
+      setShowGif(false);
+      preloader();
+    }, 6000);
+
+    // Cleanup timer on component unmount
+    return () => clearTimeout(timer);
   }, []);
 
   return (
     <div id="preloader">
-      <div className="loader_line"></div>
+      {showGif ? (
+        <img src="/gif/Flow 6@1x-25fps.gif" alt="Splash Screen" style={{ width: '100%', height: 'auto' }} />
+      
+      ) : (
+        <div className="loader_line"></div>
+      )}
     </div>
   );
 };
+
 export default PreLoader;
