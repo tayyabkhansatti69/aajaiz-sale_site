@@ -47,7 +47,7 @@ const PreLoader = () => {
             src="/gif/Flow 6@1x-25fps.gif"
             alt="Splash Screen"
             style={{
-              width: "100%", 
+              width: "500px", 
               maxWidth: "1080px", 
               height: "auto", 
               maxHeight: "887px", 
