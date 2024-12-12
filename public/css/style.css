@@ -174,8 +174,7 @@ h6 {
   width: 50%;
   height: 100%;
   z-index: -1;
-  /* background-color: #000; */
-  background-color:#F0FDFB;
+  background-color: #000;
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
@@ -205,7 +204,7 @@ h6 {
   -ms-transform: translateY(-50%);
   -o-transform: translateY(-50%);
   transform: translateY(-50%);
-  background-color: #0B767A;
+  background-color: #fff;
   -webkit-animation: lineheight 1000ms ease-in-out 0s forwards;
   -o-animation: lineheight 1000ms ease-in-out 0s forwards;
   animation: lineheight 1000ms ease-in-out 0s forwards;
@@ -217,7 +216,7 @@ h6 {
   top: 0;
   width: 1px;
   height: 100%;
-  background-color: #114D50;
+  background-color: #999999;
   -webkit-transform: translateY(-100%);
   -ms-transform: translateY(-100%);
   -o-transform: translateY(-100%);

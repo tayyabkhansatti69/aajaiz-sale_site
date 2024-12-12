@@ -1,4 +1,3 @@
-import parse from "html-react-parser";
 import { useEffect, useState } from "react";
 import { fatchData } from "../utilits";
 
@@ -9,10 +8,9 @@ const Home = ({ dark }) => {
       const data = await fatchData("/static/info.json");
       setData(data);
     }
-  
+
     fetchData();
   }, []);
-  
 
   return (
     <div className="dizme_tm_section" id="home">
@@ -26,26 +24,28 @@ const Home = ({ dark }) => {
           <div className="content">
             <div className="details">
               <div className="hello">
-                <h3 className="orangeText">{`Join Us`}</h3>
+                <h3 className="orangeText">{` Donate confidently with Aajiz.`}</h3>
               </div>
-              <div className="name">
-                <h3>for building</h3>
-              </div>
+
               <div className="job">
                 <p>
-                  a <span className="greenText">better </span> world
+                Join us in creating a 
+                  <span className="greenText"> meaningful impact today.</span>
                 </p>
               </div>
               <div className="text">
                 <p>
-                  It’s easier to take than to give. It’s nobler to give than to
-                  take. The thrill of taking lasts a day. The thrill of giving
-                  lasts a lifetime
+               { `Every donation is trackable via a unique QR code, giving you a
+                  real-time view of its journey and how it's making a
+                  difference.`}
                 </p>
               </div>
               <div className="button">
                 <div className="dizme_tm_button">
-                <a className="anchor" href="https://aajazi.netlify.app/sign-in">
+                  <a
+                    className="anchor"
+                    href="https://aajazi.netlify.app/sign-in"
+                  >
                     <span>Join Us</span>
                   </a>
                 </div>

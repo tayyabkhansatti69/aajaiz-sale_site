@@ -18,12 +18,15 @@ const About = ({ dark }) => {
               <div className="title wow fadeInUp" data-wow-duration="1s">
                 <h3>About Us </h3>
 
-                <span>{`We are a digital charity organization`}</span>
-                <h3>dedicated to bridging the </h3>
+                <span>{`Aajiz is committed to fostering transparent and impactful giving.`}</span>
+                <h3>
+                  Through our platform, every donation can be tracked with a
+                  unique QR code,
+                </h3>
               </div>
               <div className="text wow fadeInUp" data-wow-duration="1s">
                 <p>
-                  {`gap donors and recipients in need.Through our innovative QR code-based system, donors—whether individuals or companies—can provide essential support to those affected by poverty, disaster, or hardship. Partners, including brands and vendors like pharmacies, fast food chains, and clothing stores, accept these QR code cards, allowing recipients to use them for specific needs. Our mission is to simplify giving and ensure that every donation reaches those who need it most, in the most efficient and impactful way possible.`}
+                  {`so donors know exactly how their contributions are being used. We also provide e-slips and donation cards, enabling recipients to access essentials directly from our partner network, including pharmacies, fast food chains, clothing stores and many more. By collaborating with trusted brands and vendors, Aajiz ensures that recipients can obtain necessary supplies whenever they need them, building a community of accountability and support.`}
                 </p>
               </div>
             </div>
