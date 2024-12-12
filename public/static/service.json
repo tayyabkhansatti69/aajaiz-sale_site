@@ -1,9 +1,9 @@
 [
   {
-    "title": "Partner",
-    "price": "Need to be registered with us",
+    "title": "Partner with Aajiz",
+    "price": "Be a Catalyst for Change",
     "img": "img/service/1.jpg",
-    "shortDec": "We collaborate with brands and vendors, including pharmacies, fast food chains, and clothing stores, to provide recipients with QR code cards. These partnerships enable those in need to access essential items and services, amplifying our impact on their lives.",
+    "shortDec": "Join a network of dedicated brands making a tangible difference in communities in need. As a partner with Aajiz, you become a trusted access point for essential resources, ensuring recipients can access what they need, when they need it. From pharmacies to clothing stores, our partners empower recipients to use donations meaningfully and with dignity.",
     "icon": {
       "svg": "img/service/handshake.png",
       "iconBg": "img/brushes/service/1.png"
@@ -16,9 +16,9 @@
   },
   {
     "title": "Donor",
-    "price": "Need to be registered with us",
+    "price": "Make a Lasting Impact as a Donor",
     "img": "img/service/2.jpg",
-    "shortDec": "Our donors—individuals and companies—play a vital role in supporting those in need. By contributing through our QR code system, they can provide targeted assistance to recipients facing poverty, disaster, or hardship, ensuring their donations make a meaningful impact.",
+    "shortDec": "Your generosity fuels meaningful change. At Aajiz, every donation is uniquely trackable, allowing you to see precisely how your support reaches and empowers recipients. Through QR-linked updates, you can follow each contribution's journey, knowing your kindness is making a real difference in lives every day.",
     "icon": {
       "svg": "img/service/donor_icon.jpg",
       "iconBg": "img/brushes/service/2.png"
@@ -31,9 +31,9 @@
   },
   {
     "title": "Recipient",
-    "price": "No any registration needed",
+    "price": "Support When You Need It – For Recipients",
     "img": "img/service/3.jpg",
-    "shortDec": "Our recipients are individuals and families facing poverty, disaster, or hardship. Through our QR code system, they receive essential support from donors, enabling them to access specific resources and services from partnered vendors, empowering them to meet their immediate needs.",
+    "shortDec": "At Aajiz, we stand by individuals and families facing adversity, including those enduring poverty, disaster, or hardship. Your dignity and choice matter. Through our QR code system, they receive essential support from donors, enabling them to access specific resources and services from partnered vendors,empowering them to meet their immediate needs.",
     "icon": {
       "svg": "img/service/recipient_icon.png",
       "iconBg": "img/brushes/service/3.png"
@@ -46,9 +46,9 @@
   },
   {
     "title": "Aajiz",
-    "price": "We will manage this all process from zero",
+    "price": "Connecting Generosity with Impact",
     "img": "img/service/4.jpg",
-    "shortDec": "Aajiz is a digital charity platform that connects donors and recipients through QR codes. We streamline support for individuals and families in need, enabling them to access vital resources via partnerships with various vendors.",
+    "shortDec": "Aajiz is dedicated to transforming lives through transparent and accountable giving. We bridge the gap between donors, recipients, and partners, ensuring that every contribution has a direct and meaningful impact. With our innovative tracking system and network of trusted vendors, we empower individuals and families facing hardship to access essential resources, fostering community resilience and hope.",
     "icon": {
       "svg": "img/service/management.png",
       "iconBg": "img/brushes/service/4.png"

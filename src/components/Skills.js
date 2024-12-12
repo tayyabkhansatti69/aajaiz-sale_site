@@ -8,10 +8,10 @@ const Skills = ({ dark }) => {
       const data = await fatchData("/static/info.json");
       setData(data);
     }
-  
+
     fetchData();
   }, []);
-  
+
   useEffect(() => {
     window.addEventListener("scroll", activeSkillProgress);
   }, []);
@@ -23,14 +23,16 @@ const Skills = ({ dark }) => {
           <div className="wrapper">
             <div className="right">
               <div className="title wow fadeInUp" data-wow-duration="1s">
-                <span>{`True kindness is not just in the act of giving,`}</span>
+                <span>{`True Impact through kindness`}</span>
                 <h3>
-                  but in empowering others to rise above their challenges.
+                  True kindness means empowering others with thoughtful,
+                  transparent support.
                 </h3>
               </div>
               <div className="text wow fadeInUp" data-wow-duration="1s">
                 <p>
-                  {`When you extend a hand, you're not only offering help but igniting hope. Each act of generosity, no matter how small, creates ripples of change that reach far beyond what we can see. Together, we can build a world where compassion knows no boundaries, and every gift, every gesture, lifts someone toward a brighter tomorrow. Let’s make kindness our mission and uplift lives, one step at a time.`}
+                  {`With Aajiz, every donation is directed where it’s needed most, with clear tracking and accountability. Your generosity provides real-time impact for recipients, helping them access essential supplies through our network of partnered brands and vendors.
+`}
                 </p>
               </div>
             </div>
