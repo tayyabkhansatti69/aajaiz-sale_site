@@ -113,7 +113,7 @@ const Contact = () => {
               <img src="img/brushes/contact/2.png" alt="image" />
             </div>
           </div>
-          <div className="dizme_tm_map wow fadeInUp" data-wow-duration="1s">
+          {/* <div className="dizme_tm_map wow fadeInUp" data-wow-duration="1s">
             <div className="mapouter">
               <div className="gmap_canvas">
                 <iframe
@@ -125,9 +125,9 @@ const Contact = () => {
                 <a href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon" />
                 <br />
               </div>
-            </div>
+            </div> */}
             {/* Get your API here https://www.embedgooglemap.net */}
-          </div>
+          {/* </div> */}
         </div>
         <div className="brush_1 wow fadeInLeft" data-wow-duration="1s">
           <img src="img/brushes/contact/1.png" alt="image" />
